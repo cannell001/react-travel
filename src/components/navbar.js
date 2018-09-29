@@ -14,7 +14,7 @@ const Navbar = () => {
                         </a>
                         <ul className="right hide-on-med-and-down">
                             <li>
-                                <Link to="/">Home</Link>
+                                <Link to="/">Slider</Link>
                             </li>
                             <li>
                                 <Link to="/search">Search</Link>

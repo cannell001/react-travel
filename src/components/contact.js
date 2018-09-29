@@ -38,17 +38,20 @@ const Contact = () => {
                                 <input type="text" placeholder="Phone" />
                             </div>
                             <div className="input-field">
-                  <textarea
-                    className="materialize-textarea"
-                    placeholder="Enter Message"
-                  />
+                                <textarea
+                                    className="materialize-textarea"
+                                    placeholder="Enter Message"
+                                />
+                            </div>
+                            <input type="submit" value="Submit" className="btn" />
+                        </div>
+                    </div>
                 </div>
-                <input type="submit" value="Submit" className="btn" />
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
+        <footer className="section teal darken-2 white-text center">
+            <p className="flow-text">Travelville &copy; 2018 </p>
+        </footer>
     </div>
   );
 };
