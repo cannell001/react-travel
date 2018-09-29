@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-        <div className="navbar-fixed">
+        <div className="navbar-fixed scrollspy">
             <nav className="teal">
                 <div className="container">
                     <div className="nav-wrapper">

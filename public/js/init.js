@@ -1,8 +1,8 @@
 (function($) {
   $(function() {
-    $(".sidenav").sidenav();
-
     $(".scrollspy").scrollSpy();
+
+    $(".sidenav").sidenav();
 
     $(".materialboxed").materialbox();
 
