@@ -13,14 +13,14 @@ import "./styles.css";
 function App() {
   return (
     <Router>
-        <div className="App">
+        <div className="App scrollspy">
             <Navbar />
             <Route path="/" component={Slider} />
             <Route path="/search" component={Search} />
             <Route path="/popular" component={Popular} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/contact" component={Contact} />
-      </div>
+        </div>
     </Router>
   );
 }

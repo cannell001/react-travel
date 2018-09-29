@@ -3,7 +3,7 @@ import React from "react";
 const Slider = () => {
   return (
     <div>
-        <section className="slider">
+        <section className="slider scrollspy">
             <ul className="slides">
                 <li>
                     <img src="./img/resort1.jpg" alt="resort1" />
@@ -28,7 +28,7 @@ const Slider = () => {
                 <li>
                     <img src="./img/resort3.jpg" alt="resort3" />
                     <div className="caption right-align">
-              <h2>Group & Individual Getaways</h2>
+                        <h2>Group & Individual Getaways</h2>
               <h5 className="light grey-text text-lighten-3 hide-on-small-only">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
                 ipsum molestias excepturi doloremque
